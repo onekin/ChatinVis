@@ -80,6 +80,7 @@ When the LLM-generated answers are displayed, the system highlights previously c
 
   
 <img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/1ecf37d0-0036-4990-9ba2-5751c86f0bc4" />
+
 ### Deepening Your Exploration
 
 If users encounter something intriguing, they can click the magnifier icon to delve deeper into the selected answer. The LLM will generate related questions based on various sources. Users can identify the sources by the question's shape and view more details by examining the note.
@@ -102,24 +103,39 @@ Additionally, users can frame questions based on a user-defined questioning fram
 
 ### Configuration Options
 Users have the option to configure various settings such as the type and number of displayed nodes, or whether to incorporate logs.
+
 <img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/968b7b05-649d-4e0d-a995-92dcf9dfe7e2" />
 In this stage, user input nodes disappear once answers are retrieved.
+
 <img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/657165f0-faab-473e-9c0c-cc258bad5c70" />
+
 Previously configured question models now display questions based on the five W1H: who, what, where, when, why, and how.
 This process outlines how to efficiently summarize and organize numerous questions into clusters for improved management and comprehension. By using this approach, you can leverage the system's capabilities to structure questions effectively, enhance interactions with the LLM, and incorporate external sources for a more comprehensive understanding.
 The system provides the capability to group questions into various clusters, which simplifies organization and makes it more manageable.
+
 <img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/40576f1b-102f-404c-8d37-3d53269cb08f" />
+
 The LLM efficiently summarizes and clusters similar questions. These summarized questions are easily identified by the interrogation mark. You can view the grouped questions within each node by checking the note.
+
 <img width="523" height="328" alt="image" src="https://github.com/user-attachments/assets/0c4bb676-9505-4e88-b8a4-a8a4e4aa42c6" />
+
 The system can cluster questions from various sources, such as challenges. During interactions with the LLM, users have the opportunity to provide feedback on the answers to express their reasoning and thoughts.
+
 <img width="444" height="334" alt="image" src="https://github.com/user-attachments/assets/e3146c33-3934-44f1-a167-969c8ac3c94f" />
+
 Users can add annotations and assign ratings to the mind map nodes. These ratings are visually represented with different colors within the mind map, allowing for quick navigation and identification of key insights or areas of interest.
+
 <img width="444" height="334" alt="image" src="https://github.com/user-attachments/assets/3acc85d8-9052-4f54-9ca2-c06e11f30f39" />
+
 While interacting with ChatinVis, responses are generated from the LLM's knowledge. However, the system allows users to expand this knowledge by uploading external sources such as PDFs. In these cases, the answers derive from the provided PDFs.
+
 <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/c0015281-e513-4c01-b990-f86f33282b91" />
+
 By examining the source of a node, users can access a description and a text excerpt from the PDF that supports the answers. Users can also request additional answers from the LLM to explore different perspectives, enabling them to compare information from various sources.
 In ChatVis, information is systematically organized, enabling users to explore different branches and follow various search paths. Users can review annotations to deepen their understanding and use ratings for quick navigation to identify key points of interest.
+
 <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/370a10e5-ef89-4015-97cc-05a568887924" />
+
 Users have the option to request logs of the current mind map, which provides a review of how the search trail was constructed. These logs encompass details such as selected answers, consulted nodes, timestamps, and node values, offering valuable insights for further analysis.
 <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/5bbec616-b097-4b5d-a74c-fd9a076197fc" />
 
@@ -131,6 +147,7 @@ Feedback helps you:
 - Rate answers on a scale from 0 to 4
 - Quickly identify valuable information through color-coding
 - Enable the system to suggest well-rated answers to other users
+- 
 ### Integrating External Knowledge
 While interacting with ChatInVis, responses are initially generated from the LLM's knowledge. However, the system allows users to expand this knowledge by uploading external sources such as PDFs. In these cases, the answers derive from the provided PDFs.
 By examining the source of a node, users can access:
@@ -138,6 +155,7 @@ By examining the source of a node, users can access:
 - A text excerpt from the PDF that supports the answer
 - Direct links to specific sections in the source document
 Users can also request additional answers from the LLM to explore different perspectives, enabling them to compare information from various sources.
+
 ### Summarizing Information
 The system provides the capability to group questions into various clusters, which simplifies organization and makes it more manageable.
 The LLM efficiently summarizes and clusters similar questions. These summarized questions are easily identified by the interrogation mark. You can view the grouped questions within each node by checking the note.
@@ -150,6 +168,7 @@ The system can cluster both questions and answers from various sources, helping 
 
 ### Retracing Your Exploration
 In ChatInVis, information is systematically organized, enabling users to explore different branches and follow various search paths. Users can review annotations to deepen their understanding and use ratings for quick navigation to identify key points of interest.
+
 ### Viewing Exploration Logs
 Users have the option to request logs of the current mind map, which provides a review of how the search trail was constructed. These logs encompass details such as:
 
