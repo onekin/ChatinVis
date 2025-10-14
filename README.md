@@ -75,19 +75,13 @@ Ensure your computer meets the minimum requirements for running ChatInVis:
 
 Open ChatInVis's options panel by right-clicking on the ChatInVis browser toolbar icon:
 
-<img width="521" alt="Screenshot 2024-03-21 at 17 21 05 1" src="https://github.com/onekin/Chatin/assets/31988855/118f2ef8-0a34-4ba5-baff-75064f3f23c3">
-
 In this page, you have to complete the following information:
 
 1. Grant access to MindMeister
 2. Select your Large Language Model and include your API key
 3. Establish the number of answers you want to retrieve by each prompting
 
-<img width="750" alt="Screenshot 2024-03-21 at 17 33 04" src="https://github.com/onekin/Chatin/assets/31988855/76b378d3-2036-48d5-b5d5-a10867bb6cc3">
-
 Finally, check if the ChatInVis template appears in MindMeister:
-
-<img width="1067" alt="Screenshot 2024-03-21 at 17 38 00" src="https://github.com/onekin/Chatin/assets/31988855/09f7e556-9def-461f-aaac-f13a28434e79">
 
 ---
 
