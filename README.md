@@ -1,43 +1,79 @@
 # CHATINVIS
-Chatin is a browser extension that brings the power of Large Language Models (LLMs) to MindMeister, making problem analysis easier and more intuitive. Understanding a problem isn't just about recognizing a gap; it's about exploring that gap from what you initially perceive to what you eventually aim to solve. This journey, known as 'problem scoping,' involves hypothesizing, testing, and evolving your understanding based on observations.
 
-Traditional methods like literature reviews are thorough but time-consuming. Chatin offers a swift alternative, leveraging LLMs to provide immediate, relevant insights directly into your MindMeister maps. It's designed for those initial stages of problem-solving where quick, informed guidance can pivot your direction towards more effective solutions.
+ChatInVis provides a platform to facilitate information-seeking through a browser extension that enhances the MindMeister online mind mapping application. This tool integrates a large language model (LLM) to guide exploration processes and allow users to retrace their explorations seamlessly. Through a series of interactive interfaces, ChatInVis supports users in accessing, assessing, and expanding their information landscape efficiently.
 
-With Chatin, enhance your problem-solving process by integrating the speed of LLMs with the visual organization of MindMeister. Dive into problem analysis with an innovative tool that guides you from your first hunch to your final strategy.
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/2e392513-16b8-49cc-bc8a-5592461bc9a1" />
 
-## References
-Díaz, O., Garmendia, X., Contell, J. P., & Pereira, J. (2023, May). Inquiry Frameworks for Research Question Scoping in DSR: A Realization for ChatGPT. In International Conference on Design Science Research in Information Systems and Technology (pp. 299-313). Cham: Springer Nature Switzerland.
+---
 
+## What is ChatInVis?
 
+ChatInVis is a browser extension designed to support **exploratory information-seeking** in MindMeister using Large Language Models (LLMs). Unlike traditional LLM interfaces like ChatGPT, which present information sequentially, ChatInVis addresses key challenges by:
+
+- **Representing search trails as mind maps**: Enables users to see multiple exploration branches simultaneously
+- **Incorporating analytic provenance**: Documents and traces the user's reasoning process during information seeking
+- **Providing structured organization**: Groups related content and highlights connections between information pieces
+- **Facilitating revisitation**: Makes it easy to return to previous points of interest in the exploration
+
+### Research Background
+
+This tool emerged from research on enhancing LLM-based information seeking. A user study with 20 participants demonstrated that ChatInVis:
+- Helps users **retrace their search trails** and reflect on discoveries
+- Enables **identification of connections** between different concepts
+- Supports **navigation of complex information** spaces
+- Provides **structured guidance** during exploratory tasks
+- Achieved a **System Usability Scale (SUS) score of 88.87** (well above the 68 threshold for above-average usability)
+
+---
 
 # END-USERS MANUAL
-Purpose: Chatin is a browser extension designed to guide the problem analysis in MindMeister. By harnessing the power of Large Language Models (LLMs), Chatin aims to explore the landscape of your initial problem perception and offer different insights and help for understand and conceptualize your problem.
 
-How It Works: Chatin adds a mind map template in MindMeister to start conceptualizing your problem. After defining your context, Chatin introduces the dynamic intelligence of LLMs to enrich your problem analysis by initiating a exploration of the domain through prompting. It transforms the initial, often vague, problem perceptions into clearly scoped challenges. Through an interactive process, Chatin helps you explore and refine your problem to maximize the chances of getting the a usefull solution for it! Although it lacks the veracity of literature review, it provides other benefits such as:
+## Purpose
 
-- Efficiency: By integrating LLM insights directly into your MindMeister workflow, Chatin significantly reduces the time needed for literature reviews and data gathering.
-- Clarity: It clarifies the problem scoping process, helping you move from a broad understanding of issues to pinpointing specific actionable problems.
-- Enhanced Problem Solving: With the support of LLMs, you gain access to a wide range of knowledge and perspectives, enhancing creativity and depth in problem-solving.
+ChatInVis is a browser extension designed to support exploratory information-seeking in MindMeister using Large Language Models (LLMs). By harnessing the power of LLMs, ChatInVis helps you explore the landscape of your initial questions and offers different insights to understand and conceptualize complex topics. The tool addresses key limitations of traditional LLM interfaces, such as difficulty in revisiting information and lack of structural organization, by representing search trails as interactive mind maps enhanced with analytic provenance.
+
+## How It Works
+
+ChatInVis adds a mind map template in MindMeister to start your exploration journey. After defining your initial question, ChatInVis introduces the dynamic intelligence of LLMs to enrich your information-seeking process through an interactive exploration interface. It transforms initial, often vague, questions into clearly structured exploration paths. Through an interactive process, ChatInVis helps you:
+
+- **Navigate Complex Information**: Visualize your exploration process with branching paths that allow you to see different inquiry directions
+- **Expand Your Knowledge**: Discover new areas of interest through LLM-driven follow-up questions and diverse perspectives
+- **Retrace Your Search Trail**: Review your exploration history, reflect on discoveries, and identify connections between concepts
+- **Integrate External Knowledge**: Incorporate PDFs and research papers directly into your exploration with source citations
+- **Manage Information Overload**: Summarize and cluster related questions and answers to maintain focus
+
+### Key Benefits
+
+- **Efficiency**: By integrating LLM insights directly into your MindMeister workflow, ChatInVis significantly reduces the time needed for information gathering
+- **Clarity**: It clarifies the exploration process, helping you move from a broad understanding of topics to specific, actionable insights
+- **Traceability**: Enables you to document and revisit your reasoning during the search process through analytic provenance
+- **Enhanced Understanding**: With the support of LLMs and visual organization, you gain access to a wide range of knowledge and perspectives, enhancing creativity and depth in information-seeking
+
+---
 
 ## Installation and Setup
-You can follow these steps to get Chatin up and running
+
+Follow these steps to get ChatInVis up and running:
 
 ### Step 1: Requirements
-Ensure your computer and you meet the minimum requirements for running Chatin.
 
-- Google Chrome browser
-- Mindmeister account. The free version allows you to create 3 maps at most.
-- LLM API key. Chatin allows you to interact with GPT and Claude, therefore, in order to use them ensure you have an OpenAI or Anthropic API key
+Ensure your computer meets the minimum requirements for running ChatInVis:
 
-### Step 2: Install the Chatin Extension
-- Open your web browser and navigate to the Chatin extension page on the [[Browser Extension Store/Marketplace](https://chromewebstore.google.com/detail/chatin/ojgphilpbmgaclmomnhjbcmjmhdlcbbn)].
-- Click the "Add to Browser" or "Install" button to begin the installation process.
-- Once the installation is complete, you will see a Chatin icon appear in your browser’s toolbar. This indicates that Chatin is successfully installed.
+- **Google Chrome browser**
+- **MindMeister account** (the free version allows you to create 3 maps at most)
+- **LLM API key**: ChatInVis allows you to interact with GPT and Claude models, therefore, ensure you have an **OpenAI** or **Anthropic** API key
+  - Get an OpenAI API key at: https://platform.openai.com/api-keys
+  - Get an Anthropic API key at: https://console.anthropic.com/
+
+### Step 2: Install the ChatInVis Extension
+
+- Open your web browser and navigate to the ChatInVis extension page on the [Chrome Web Store](https://chromewebstore.google.com/detail/chatinvis/fimamihiakhbnopcnnlndkmljmbpcmhi)
+- Click the "Add to Browser" or "Install" button to begin the installation process
+- Once the installation is complete, you will see a ChatInVis icon appear in your browser's toolbar. This indicates that ChatInVis is successfully installed
 
 ### Step 3: Setup
-Open Chatin's options panel. You can do it by right click in Chatin's browser’s toolbar icon.
 
-<img width="521" alt="Screenshot 2024-03-21 at 17 21 05 1" src="https://github.com/onekin/Chatin/assets/31988855/118f2ef8-0a34-4ba5-baff-75064f3f23c3">
+Open ChatInVis's options panel by right-clicking on the ChatInVis browser toolbar icon:
 
 In this page, you have to complete the following information:
 
@@ -45,213 +81,627 @@ In this page, you have to complete the following information:
 2. Select your Large Language Model and include your API key
 3. Establish the number of answers you want to retrieve by each prompting
 
-<img width="750" alt="Screenshot 2024-03-21 at 17 33 04" src="https://github.com/onekin/Chatin/assets/31988855/76b378d3-2036-48d5-b5d5-a10867bb6cc3">
+Finally, check if the ChatInVis template appears in MindMeister:
 
-Finally, Check if the Chatin template appears in MindMeister.
-
-<img width="1067" alt="Screenshot 2024-03-21 at 17 38 00" src="https://github.com/onekin/Chatin/assets/31988855/09f7e556-9def-461f-aaac-f13a28434e79">
+---
 
 ## Getting Started
-You can create a Chatin mind map clicking on its template. Once you click there, an empty Chatin map is displayed:
 
-<img width="1466" alt="Screenshot 2024-03-21 at 17 44 07" src="https://github.com/onekin/Chatin/assets/31988855/61406ea0-cc33-45ba-b42e-43a7461ae45e">
+### Creating Your First Exploration
 
-First, you have to complete your problem space. To this aim, you have to complete the following nodes:
-- Perceived Problem: Indicate which is the problem you perceived in the practice.
-- Practice: Indicate which is the setting or context you want to address. An example can be “combating climate change”
-- Activity: Indicate one concrete task from the practice you want to research. An example of an activity within the practice of combating climate change could be “reduce the use of cars”.
-- Person [optional]: People that engage in the practice in which they perceive the problem
-- Optional variables: You can add extra variables adding new nodes in the Context node.
-  
-<img width="1272" alt="Screenshot 2024-03-21 at 18 14 10" src="https://github.com/onekin/Chatin/assets/31988855/1ff0c319-05eb-49d5-a61d-dffeea3f23ff">
+Upon accessing the MindMeister homepage, ChatInVis provides a new mind map template to initiate the exploration. Once the map is loaded, users can input their initial question in the root mind map node. The **question mark icon (?)** can be used to seek answers and initiate exploration.
 
-Once the Problem Space is defined, you can start the analysis clicking on the "NEW" button in the Problem Analysis node. At the start of the analysis you will see that a new yellow/question node is created to start the analysis. Remember that you can refine or extend the problem space when you want during the problem analysis.
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/fd1f49d4-5b63-4628-aa11-614ea39c129e" />
 
-## Features and Functionality
-We distinguish two kinds of functionalities: Divergent functionalities (those that help to create new nodes) and Convergence functionalities (those that help to decide which node select).
+### Understanding the Conceptual Model
 
-### Divergence
-#### Ask questions
-Chatin offers different prompts to explore the problem and analyze the cause and consequences of the problem. First, Chatin starts identifying causes using the "5 why strategy" through prompting and creating question nodes that deep into the cause of the problems. Question nodes are displayed with the yellow color and they contain the prompt that is going to be send to the LLM (This prompts can be modified by the user changing the content of the node). To perform the question, the user has to click on the node and then select the 'ask question' label that is going to appear (alternatively, the question can also be done by clicking the magnifier icon). After waiting few seconds, new green nodes are generated by the LLM that answer the question.
+ChatInVis organizes your search trail around several key elements that work together to create a traceable exploration process:
 
-<img width="1055" alt="Screenshot 2024-03-21 at 18 46 36" src="https://github.com/onekin/Chatin/assets/31988855/4e22b41d-a9f7-40d9-ab8b-64e167037b89">
+<img width="696" height="381" alt="model (3)" src="https://github.com/user-attachments/assets/ac343c65-2655-4206-9fda-525a32006752" />
 
-Moreover, if you click on the node's note, a description of the answer is displayed.
-<img width="1055" alt="Screenshot 2024-03-21 at 18 52 18" src="https://github.com/onekin/Chatin/assets/31988855/9e1ac2f1-11ab-486a-93e8-66f82704c7a7">
+The conceptual model shows how different components interact:
 
-Now, here starts the iterative process. For the identified problems new question nodes can be generated to deep into the problem. To this aim, when you select an interesting cause you can select it and create a new prompt to continue asking.
+- **Interaction**: The central hub capturing all your exploration activities
+- **Questions**: Can originate from multiple sources
+  - User Questions: Your own typed questions
+  - LLM-Driven Questions: Generated by the AI based on context
+  - Framework-based: Structured questions (e.g., 5W1H)
+  - Previous Questions: Selected from logs of past explorations
+- **Answers**: Responses that can be
+  - LLM Answers: From the model's knowledge
+  - Resource-Based Answers: Derived from uploaded PDFs
+- **Feedback**: Your ratings (0-4) and annotations
+- **Clusters**: Grouped questions or answers to manage complexity
 
-<img width="1211" alt="Screenshot 2024-03-22 at 09 57 08" src="https://github.com/onekin/Chatin/assets/31988855/82d6f5c6-e0a8-4935-b1d3-521752a139a7">
+### Understanding the Search Trail Elements
 
+ChatInVis uses distinct visual representations to help you perceive different types of questions, answers, and sources:
 
-Then, you can repeat the above process to create more questions based on the cause until finding the problem you want to address. 
+<img width="1005" height="430" alt="design" src="https://github.com/user-attachments/assets/e4a7902a-0425-4ad4-bbe5-ff44dee2238a" />
 
-#### User modifications
-During this process you have also the possibility to add your own problems or questions. To this aim, Chatin provides the "add own cause" and "add own question" options:
-<img width="1274" alt="Screenshot 2024-03-22 at 10 22 18" src="https://github.com/onekin/Chatin/assets/31988855/364deb37-ea01-4f50-8fea-009800c32d6a">
+**Visual Coding System:**
 
-Remember that you can also modify the question nodes:
-<img width="757" alt="Screenshot 2024-03-22 at 10 34 20" src="https://github.com/onekin/Chatin/assets/31988855/ad6697b8-7e1f-448b-b324-8776ac6c6adf">
+- **User interactions**: Depicted with **square shapes**
+- **LLM-generated elements**: Shown as **circles**
+- **System log elements**: Displayed as **cloud shapes**
+- **Questions, answers, and clusters**: Distinguished using different icons and background colors
+- **Resource-based answers**: Indicated by an **attachment icon**
+- **Feedback annotations**: Appear as text within the answer
+- **Ratings (0-4)**: Visually represented through border colors, from red to dark green, in a traffic light color scale
 
-#### PDF based questions
-You can complement Chatin Mind map with implicit knowledge. It provides the opportunity to attach PDFs in the question nodes to ask question based on these papers. This helps to get better results associated with the topic.
-<img width="1380" alt="Screenshot 2024-03-22 at 10 50 40" src="https://github.com/onekin/Chatin/assets/31988855/18c40480-fa3d-4b48-9944-00f5e4807c44">
+### Complete Interaction Workflow
 
-Note that nodes created asking from a PDF have a green light color. In addition to this, if you click on the node's note it includes the excerpt that justifies the creation of the node.
+<img width="1163" height="858" alt="interaction (4)" src="https://github.com/user-attachments/assets/d146c3ae-8d3f-4c41-bbeb-6b3a0115089d" />
 
-<img width="731" alt="Screenshot 2024-03-22 at 11 32 38" src="https://github.com/onekin/Chatin/assets/31988855/fa75b9d5-fe26-4e54-b7fb-73d2c6e3941a">
+**Question-answer interaction in ChatInVis:**
 
+- **(A)** Initial question - where your exploration begins
+- **(B)** One of the answers for first question; the right button inside each node allows users to view the complete answer
+- **(C)** User input question - add your own follow-up questions
+- **(D)** Previous question - questions from your exploration logs
+- **(E)** LLM own question - AI-generated follow-up questions
+- **(F)** Framework-based question - structured questions (e.g., 5W1H)
+- **(G)** All sources can be viewed in the note attached to each node, together with a description
 
-#### Select a problem to address
-During the problem analysis you can select a problem to address. A problem can be selected clicking on the black tick.
-![addressProblem](https://github.com/onekin/Chatin/assets/31988855/dc0fad02-b90b-4254-97db-92a75ae44e19)
-Once you click on a problem, it is coloured in red and now, instead of searching for causes you can search for consequences in order to find goodness criteria. See next figure. Now the question is differente but the mechanisms is the same as with the causes exploration.
-![conse](https://github.com/onekin/Chatin/assets/31988855/33dd2e1b-6e04-496d-b838-9129b51414ab)
+**How the interaction works:**
 
-If you ask the question, in the consequence mode the LLM will return the established number of answer + the previous causes of the addressed problem (see next figure).
-![consequences](https://github.com/onekin/Chatin/assets/31988855/f91587c3-1534-4aa5-ad63-7cf746a27006)
+1. **Ask a question**: Start by typing your question in the root node
+2. **Get answers**: Click the question mark icon to generate multiple answers
+3. **Explore deeper**: Click the magnifier icon on any answer to get follow-up questions
+4. **Choose your path**: Select from user-defined, LLM-generated, framework-based, or previous questions
+5. **Continue exploring**: Each answer opens new branches of exploration
 
-Once you find an interesting consequence, you can add it as a Goodness Criteria to your problem space clicking on the black tick.
-![goodness](https://github.com/onekin/Chatin/assets/31988855/18a1fbbb-eb77-4676-a0e4-c7e6ecd57c5d)
+### Exploring with LLM-Generated Answers
 
-When you have the Goodness Criteria in the problem space you can explore how to measure it for future evaluations.
+When the LLM-generated answers are displayed, the system highlights previously considered answers and identifies those well-rated. Users can explore different answers by displaying notes which provide descriptions and sources. Additionally, users may input their own answers into the square-shaped node.
 
-![goodnessCriteria](https://github.com/onekin/Chatin/assets/31988855/e2573aab-e503-402d-8128-cf6bd9c16952)
+### Deepening Your Exploration
 
+If users encounter something intriguing, they can click the **magnifier icon** to delve deeper into the selected answer. The LLM will generate related questions based on various sources. Users can identify the sources by the question's shape and view more details by examining the note.
 
-### Convergence
-Chatin provides different functionalities to help you selecting a candidate problem.
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/36570294-5f03-452f-bf81-c3c9e5ed9e70" />
 
-#### Compact nodes
-Chatin provides the opportunity to aggregate different nodes when there are a lot of options to simplify the map. You can click on a question node and select the compact option. Then, Chatin will ask you to select the number of clusters you want. Finally, once the number of nodes is selected, Chatin will replace the current nodes with the number of asked nodes.
+### Asking Follow-up Questions
 
-![compact](https://github.com/onekin/Chatin/assets/31988855/3d5781a6-4217-4f1f-b542-eac9a49bd683)
+Users can locate nodes to input their questions, including:
 
-The groups are colored in dark green and collect the previous nodes. You can check which nodes are gathered in each group checking the node note.
+- **User-defined questions**: Type your own questions in square nodes
+- **System-suggested questions**: From logs of previous explorations
+- **LLM-generated questions**: Based on the current context
 
-#### Ask to Consensus
-Chatin provides you the opportunity to consult the question in Consensus in order to retrive associated literature. You can select a question node and select the Consensus option and the question will be asked in Consensus. You will be redirected to a page like this:
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/4e74e9c0-e6e6-4049-ac22-68eb6bac7043" />
 
-https://consensus.app/results/q=WHY%20DOES%20Narrow%20perspective%20OCCUR%20DURING%20problem%20analysis%20IN%20Design%20Science%20Research%20%20and%20assuming%20that%20Person%20is%20novel%20research%3F
+### Using Question Frameworks
 
-![consensus](https://github.com/onekin/Chatin/assets/31988855/4e98bad3-c357-4ee6-ae15-493b9073e4b6)
+Additionally, users can frame questions based on a user-defined questioning framework. The interaction can be customized in the question configuration menu, allowing users to add, edit, or delete question models (e.g., 5W1H framework: Who, What, When, Where, Why, and How).
 
-It is also possible to use consensus in answer nodes. In this case, the question will ask for solutions for the given problem in the literature.
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/ea74f96c-87f4-4a56-ae9f-94f980880109" />
+
+### Configuration Options
+
+Users have the option to configure various settings such as the type and number of displayed nodes, or whether to incorporate logs.
+
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/968b7b05-649d-4e0d-a995-92dcf9dfe7e2" />
+
+In this stage, user input nodes disappear once answers are retrieved.
+
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/657165f0-faab-473e-9c0c-cc258bad5c70" />
+
+Previously configured question models now display questions based on the five W1H: who, what, where, when, why, and how.
+
+---
+
+## Key Features
+
+### Providing Feedback
+
+<img width="1340" height="647" alt="feedback" src="https://github.com/user-attachments/assets/ae61660d-a52d-4222-896f-55cb6ee7f09f" />
+
+**Setting feedback in ChatInVis:**
+1. Users right-click in node and select 'Set user record'
+2. User provides an annotation and rating
+3. The node appearance is updated with the feedback
+
+Users can add annotations and assign ratings to mind map nodes. These ratings are visually represented with different colors within the mind map, allowing for quick navigation and identification of key insights or areas of interest.
+
+**Feedback helps you:**
+- Document your thoughts during exploration
+- Rate answers on a scale from 0 to 4
+- Quickly identify valuable information through color-coding
+- Enable the system to suggest well-rated answers to other users
+- Create a record of your reasoning process for future reference
+
+During interactions with the LLM, users have the opportunity to provide feedback on the answers to express their reasoning and thoughts.
+
+<img width="444" height="334" alt="image" src="https://github.com/user-attachments/assets/e3146c33-3934-44f1-a167-969c8ac3c94f" />
+
+<img width="444" height="334" alt="image" src="https://github.com/user-attachments/assets/3acc85d8-9052-4f54-9ca2-c06e11f30f39" />
+
+### Integrating External Knowledge
+
+<img width="811" height="680" alt="pdf" src="https://github.com/user-attachments/assets/ccf8b9bd-1be6-4205-a19a-5eaac01d0644" />
+
+**Adding external knowledge in ChatInVis:**
+1. Select attachment and upload a PDF in a question node
+2. Select 'Ask GPT'
+3. Answers have the source attached and notes show the answer description and an excerpt from the document
+
+While interacting with ChatInVis, responses are initially generated from the LLM's knowledge. However, the system allows users to expand this knowledge by uploading external sources such as PDFs. In these cases, the answers derive from the provided PDFs.
+
+<img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/c0015281-e513-4c01-b990-f86f33282b91" />
+
+By examining the source of a node, users can access:
+- A description of the answer
+- A text excerpt from the PDF that supports the answer
+- Direct links to specific sections in the source document
+
+Users can also request additional answers from the LLM to explore different perspectives, enabling them to compare information from various sources.
+
+### Summarizing Information
+
+<img width="925" height="532" alt="summarize" src="https://github.com/user-attachments/assets/89cc09a5-b8a4-4c31-965f-58d9f0d17d5b" />
+
+**Summarizing questions in ChatInVis:**
+1. User selects 'Summarize'
+2. They select the number of clusters
+3. Questions are grouped in the indicated number of nodes, they maintain the previous data in the node to retrace the transformation. Interaction is the same for summarizing answers
+
+The system provides the capability to group questions into various clusters, which simplifies organization and makes it more manageable.
+
+<img width="580" height="328" alt="image" src="https://github.com/user-attachments/assets/40576f1b-102f-404c-8d37-3d53269cb08f" />
+
+The LLM efficiently summarizes and clusters similar questions. These summarized questions are easily identified by the interrogation mark. You can view the grouped questions within each node by checking the note.
+
+<img width="523" height="328" alt="image" src="https://github.com/user-attachments/assets/0c4bb676-9505-4e88-b8a4-a8a4e4aa42c6" />
+
+The system can cluster both questions and answers from various sources, helping to:
+
+- Reduce information overload
+- Maintain focus on key concepts
+- Integrate information from multiple sources
+- Create top-level taxonomies of related concepts
+
+### Retracing Your Exploration
+
+In ChatInVis, information is systematically organized, enabling users to explore different branches and follow various search paths. Users can review annotations to deepen their understanding and use ratings for quick navigation to identify key points of interest.
+
+<img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/370a10e5-ef89-4015-97cc-05a568887924" />
+
+**Benefits of retracing:**
+- **Reflect on discoveries**: Review your exploration history to understand your thought process
+- **Identify connections**: See how different concepts relate to each other
+- **Understand provenance**: Track where information came from and how it was derived
+- **Learn from exploration**: Understand what questions led to valuable insights
+- **Explain your reasoning**: Document and share your decision-making process
+
+### Viewing Exploration Logs
+
+Users have the option to request logs of the current mind map, which provides a review of how the search trail was constructed. These logs encompass details such as:
+
+- **Selected answers**: Which answers you chose to explore further
+- **Consulted nodes**: What information you reviewed
+- **Timestamps**: When each action occurred
+- **Node values**: The content of questions and answers
+- **User actions**: askQuestion, selectAnswer, setFeedback, summarize, consultNote
+- **Context**: The state of the mind map when actions were taken
+
+<img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/5bbec616-b097-4b5d-a74c-fd9a076197fc" />
+
+Logs can be exported and imported in JSON format, enabling sharing of exploration data for collaboration or future analysis.
+
+**Use cases for logs:**
+- Generate reports to review your analysis process
+- Identify obstacles encountered during exploration
+- Reproduce interactions for analysis
+- Support collaboration through log sharing
+- Reuse successful exploration patterns in new contexts
+
+---
+
+## Advanced Usage
+
+### Managing Information Overload
+
+The tool proposes multiple follow-up questions and answers that can help exploration but may also overwhelm users. Strategies to manage this:
+
+1. **Configure question types**: Enable/disable specific question sources in settings
+2. **Adjust answer count**: Reduce the number of answers generated per question
+3. **Use summarization frequently**: Cluster information before it accumulates
+4. **Collapse nodes**: Use MindMeister's built-in collapsing to hide branches
+5. **Focus on ratings**: Navigate using color-coded feedback to find key insights
+
+### Collaborative Exploration
+
+ChatInVis supports collaborative information-seeking:
+
+- **Share mind maps**: Export and share your exploration with team members through MindMeister's sharing features
+- **Reuse logs**: Import logs from colleagues to understand their reasoning and exploration paths
+- **Feedback sharing**: See well-rated answers from other users (when logs are shared)
+- **Collective intelligence**: Build on explorations of others with similar research interests
+
+**Current limitations:**
+- Log sharing requires manual export/import
+- Logs are stored locally in Chrome's storage
+- Future versions may include integrated sharing mechanisms
+
+### Using Previous Questions
+
+The system can suggest questions from your past explorations:
+
+- **Automatic suggestion**: LLM selects relevant questions from logs based on current context
+- **Cross-topic application**: Reuse successful question patterns in new domains
+- **Learning support**: Understand what questions led to valuable insights in the past
+
+---
+
+## Tips for Effective Use
+
+### For Exploring Unknown Topics
+
+- Start with a broad question to get oriented
+- Review multiple answers to get diverse perspectives
+- Use the magnifier icon to drill deeper into interesting points
+- Let LLM-generated questions guide your exploration
+- Summarize frequently to maintain a high-level overview
+- Add annotations to capture your thoughts as you learn
+
+### For Research and Analysis
+
+- Upload relevant PDFs early in the process
+- Use framework-based questions (5W1H) for comprehensive coverage
+- Annotate answers with your reasoning and critique
+- Rate answers to track most valuable insights
+- Export logs for documentation and reporting
+- Compare answers from LLM knowledge vs. external documents
+
+### For Collaborative Work
+
+- Share mind maps with clear annotations explaining your thinking
+- Use consistent rating scales within your team
+- Export and share logs when transferring knowledge
+- Review others' exploration trails to learn different approaches
+- Build upon existing explorations rather than starting from scratch
+
+### When ChatInVis is Most Effective
+
+**Ideal for:**
+- Exploring unfamiliar topics that require building conceptual understanding
+- Complex questions with multifaceted relationships between concepts
+- Research requiring integration of multiple sources (LLM + documents)
+- Collaborative knowledge building and sharing
+- Documentation of reasoning processes for later review
+- Open-ended exploration where the path is unclear
+
+**Not ideal for:**
+- Simple factual queries or definitions (use traditional LLM chat for these)
+- Time-sensitive tasks requiring quick answers
+- Situations where exploration structure adds unnecessary complexity
+
+---
 
 ## Support and Resources
-- You can ask support in the following mail: xabier.garmendiad@ehu.eus
 
-- Here there is a video demo: https://youtu.be/lGInf5cqZ7Q?si=8Ks48PHibMiFXli9
+- **Email Support**: xabier.garmendiad@ehu.eus
+- **Video Tutorial**: [7-minute demo](https://drive.google.com/file/d/1aaF5p2dJ937bAass8I8sG15DYCp5M5N2/view?usp=sharing) - Highly recommended for new users
+- **Example Maps**: [Sample explorations created with ChatInVis](https://docs.google.com/document/d/1liPEni_1E7nwpLqcZN4sE_DnGSYGupJ7rqfIQaxQcYw/edit?usp=sharing)
 
-- Here you can find some map examples created with Chatin: https://docs.google.com/document/d/1liPEni_1E7nwpLqcZN4sE_DnGSYGupJ7rqfIQaxQcYw/edit?usp=sharing
+---
 
 ## Available LLMs
-- OpenAI. GPT4 and GPT3.5
-- Anthropic. Claude2.0
+
+- **OpenAI**: GPT-4, GPT-3.5-turbo
+- **Anthropic**: Claude 2.0
+
+*Note: You need a valid API key for your chosen model. API costs are determined by the respective providers and charged separately.*
+
+---
+
+## Frequently Asked Questions
+
+**Q: Do I need to pay for the LLM API?**  
+A: Yes, you need an API key from OpenAI or Anthropic, which have associated costs based on usage. Check their pricing pages for current rates.
+
+**Q: Can I use ChatInVis offline?**  
+A: No, ChatInVis requires internet connectivity to communicate with LLM APIs and MindMeister.
+
+**Q: How is my data stored?**  
+A: Exploration logs are stored locally in Chrome's local storage. Mind maps are stored in your MindMeister account. Neither ChatInVis nor the developers have access to your data.
+
+**Q: Can I export my exploration?**  
+A: Yes, you can export mind maps from MindMeister in various formats, and logs can be exported in JSON format from ChatInVis.
+
+**Q: Is there a limit to the number of maps I can create?**  
+A: This depends on your MindMeister plan. The free plan allows up to 3 maps. Upgrade to MindMeister Pro for unlimited maps.
+
+**Q: Can I use my own LLM models or open-source models?**  
+A: Currently, only OpenAI and Anthropic models are supported through their APIs. Support for local and open-source models is planned for future versions.
+
+**Q: What happens if I run out of API credits?**  
+A: The extension will show an error when trying to generate responses. You'll need to add credits to your OpenAI or Anthropic account.
+
+---
 
 # DEVELOPERS MANUAL
-## Architecture Overview
-Chatin is a browser extension and it is developed with web development technologies: JavaScript, Node and Gulp.
-It is developed over the last Manifest version (Manifest version 3): https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=es-419
 
-The web extension follows the standard web browser extension architecture with content script modules to manage the web content and background scripts to manage the local storage, mindmeister and LLM communications.
+## Architecture Overview
+
+<img width="456" height="177" alt="architecture" src="https://github.com/user-attachments/assets/00c7f1df-3ef3-4245-8354-c6961be3557e" />
+
+ChatInVis is a browser extension developed with web development technologies: JavaScript, Node.js, and Gulp. It is developed using Manifest version 3: https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3
+
+The web extension follows the standard browser extension architecture with:
+- **Content script modules**: Manage web content
+- **Background scripts**: Manage local storage, MindMeister, and LLM communications
+
+## System Architecture
+
+ChatInVis acts as a bridge between the user, MindMeister, and the LLM. The extension:
+
+- Communicates with the LLM through specific prompts that request responses in JSON format
+- Renders the responses as question and answer nodes in the mind map
+- Stores logs of user interactions and feedback in Chrome's local storage for later retrieval
+
+The technology used for LLM communication is **LangChain**, which facilitates seamless integration of different LLM models. Users can configure various models in the extension options page, including:
+
+- OpenAI models (GPT-4, GPT-3.5-turbo)
+- Anthropic models (Claude 2.0)
+
+### Key Design Principles
+
+The system was designed following five interrelated stages of **analytic provenance**:
+
+1. **Perceive**: Visual differentiation of question types, answer sources, and feedback
+2. **Capture**: Semantic information through user annotations and ratings
+3. **Encode**: Logging of user actions with timestamps and context
+4. **Recover**: Retrieval of all recorded actions and interactions
+5. **Reuse**: Automatic suggestions based on past interactions
 
 ## Development Environment
-To develop from the source code, you will need to install node and gulp to build the extension. This are the required versions
-- Node v12.22
-- Gulp v4
+
+To develop from the source code, you will need to install Node.js and Gulp to build the extension. Required versions:
+
+- **Node v12.22**
+- **Gulp v4**
 
 ## API Documentation
-Chatin makes use of differente APIs:
-- MindMeister API. Chatin uses this API to manage the maps: https://developers.mindmeister.com/
+
+ChatInVis makes use of different APIs:
+
+- **MindMeister API**: Used to manage the maps - https://developers.mindmeister.com/
+  - Handles map creation, node manipulation, and data retrieval
+  - Provides authentication and authorization
   
-- LangChain. Chatin uses different LLM's API through the LangChain JS library: https://js.langchain.com/docs/get_started/introduction
+- **LangChain**: Used to interact with different LLM APIs through the LangChain JS library - https://js.langchain.com/docs/get_started/introduction
+  - Provides unified interface for multiple LLM providers
+  - Handles prompt formatting and response parsing
+  - Supports streaming responses and error handling
 
 ## Code Structure
+
 The artifact code is organized as follows:
+```
+chatinvis/
+├── images/          # Images within the browser extension
+├── pages/           # HTML files of the extension
+├── resources/       # Mind map templates and pdf.js library to process PDFs
+└── scripts/         # Main component with scripts to make the extension work
+    ├── content_script.js      # Executed when MindMeister is accessed
+    ├── background.js          # Initializes background scripts for communications
+    ├── options.js             # Executed when the option page is opened
+    ├── chatin/               # Scripts executed in MindMeister
+    │   ├── HomePageManager.js # Adds button to create ChatInVis map
+    │   ├── MindmapManager.js  # Handles ChatInVis functionality (MOST IMPORTANT)
+    │   └── [model files]      # Define node names, question templates, prompt styles
+    ├── llm/                  # LLM communication scripts
+    │   └── LLMManager.js      # Communications with LangChain and local storage
+    ├── mindmeister/          # Scripts to communicate with MindMeister API
+    └── utils/                # Helper functions for reusable code
+```
 
-- ![chatin](https://github.com/onekin/Chatin/assets/31988855/ee3f42df-1472-433e-9b87-16dafccb80d7)
+**Main components:**
 
-These are the main components:
-- images. This folder contains the images within the browser extension.
-- pages. This folder contains the html files of the extension.
-- resources. This folder contains mind map templates and the pdf.js library to process pdfs.
-- scripts. This is the main component, it contains the scripts to make the extension work. Based on a web extension architecture this is the main classes:
-  - Content Script: content_script.js, this is the script that is executed when MindMeister is accessed
-  - Service worker: background.js, this script initializes all the background scripts to enable the communications
-  - Options file: options.js, this is the script executed when the option page is opened
-  - The rest of scripts are organized in the following folders.
-     	- chatin. This folder contains the scripts that are executed in MindMeister.
-    		- HomePageManager is executed in MindMeister home page to add the button to create a Chatin map.
-    		- MindmapManager is executed when opening a MindMeister map and it handles Chatin's functionality. This is the most important file.
-    		- The rest of the files in this folder are classes imported in the two above classes and define the Chatin model (e.g., node names, question templates, prompt styles...)
-  	- llm. The main class in this folder is LLMManager, which is executed at the background to establish the communications with Langchain for asking questions to a LLM and with the local storage to manage the variables from the Options page.
-     	- mindmeister. This folder contains the scripts to communicate with MindMeister API functionalities
-        - utils. This folder contains helper functions which are small pieces of reusable code designed to perform a specific task that supports larger code structures.
+- **Content Script**: `content_script.js` - executed when MindMeister is accessed
+- **Service worker**: `background.js` - initializes all background scripts to enable communications
+- **Options file**: `options.js` - executed when the option page is opened
+- **MindmapManager.js**: The most important file - orchestrates all ChatInVis functionality
+- **LLMManager.js**: Establishes communications with LangChain for asking questions to an LLM
+
 ## Building and Testing
-To compile the project, you only need to execute the following lines, but make sure you have the node and gulp versions specified in the Development Enviroment section.
 
-	$ npm install
-	$ gulp default
+To compile the project, execute the following lines (ensure you have the correct Node.js and Gulp versions):
+```bash
+$ npm install
+$ gulp default
+```
 
 ## Usage
 
-Run `$ gulp --watch` and load the `dist`-directory into chrome.
+Run `$ gulp --watch` and load the `dist` directory into Chrome.
 
-## Entryfiles (bundles)
+## Entry Files (Bundles)
 
-There are two kinds of entryfiles that create bundles.
+There are two kinds of entry files that create bundles:
 
 1. All js-files in the root of the `./app/scripts` directory
-2. All css-,scss- and less-files in the root of the `./app/styles` directory
+2. All css-, scss- and less-files in the root of the `./app/styles` directory
 
-## Tasks
+## Build Tasks
 
 ### Build
+```bash
+$ gulp
+```
 
-    $ gulp
-
+**Build Options:**
 
 | Option         | Description                                                                                                                                           |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `--watch`      | Starts a livereload server and watches all assets. <br>To reload the extension on change include `livereload.js` in your bundle.                      |
 | `--production` | Minifies all assets                                                                                                                                   |
 | `--verbose`    | Log additional data to the console.                                                                                                                   |
-| `--vendor`     | Compile the extension for different vendors (chrome, firefox, opera, edge)  Default: chrome                                                                 |
+| `--vendor`     | Compile the extension for different vendors (chrome, firefox, opera, edge). Default: chrome                                                           |
 | `--sourcemaps` | Force the creation of sourcemaps. Default: !production                                                                                                |
 
+### Pack
 
-### pack
-
-Zips your `dist` directory and saves it in the `packages` directory.
-
-    $ gulp pack --vendor=firefox
+Zips your `dist` directory and saves it in the `packages` directory:
+```bash
+$ gulp pack --vendor=firefox
+```
 
 ### Version
 
-Increments version number of `manifest.json` and `package.json`,
-commits the change to git and adds a git tag.
-
-
-    $ gulp patch      // => 0.0.X
-
-or
-
-    $ gulp feature    // => 0.X.0
-
-or
-
-    $ gulp release    // => X.0.0
-
+Increments version number of `manifest.json` and `package.json`, commits the change to git and adds a git tag:
+```bash
+$ gulp patch      # => 0.0.X
+$ gulp feature    # => 0.X.0
+$ gulp release    # => X.0.0
+```
 
 ## Globals
 
-The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. It will be set to `development` unless you use the `--production` option.
+The build tool defines a variable named `process.env.NODE_ENV` in your scripts. It will be set to `development` unless you use the `--production` option.
 
-## Testing
+## Extending ChatInVis
+
+### Adding a New LLM Provider
+
+1. Update `llm/LLMManager.js` to include the new provider via LangChain
+2. Add provider configuration options in `pages/options.html`
+3. Update prompt formatting if needed for provider-specific requirements
+4. Test thoroughly with various question types
+
+### Adding New Question Frameworks
+
+1. Define framework structure in the appropriate model file
+2. Create prompt templates for the framework
+3. Add UI controls in the configuration panel
+4. Test with various contexts and question types
+
+### Customizing Node Appearance
+
+1. Modify node rendering logic in `chatin/MindmapManager.js`
+2. Update icon mappings in `resources/` directory
+3. Adjust color schemes for different node types
+4. Ensure visual differentiation remains clear
+
+## Testing Checklist
+
+**Manual Testing:**
+- [ ] Install extension in Chrome
+- [ ] Configure with valid API keys (OpenAI and Anthropic)
+- [ ] Create new ChatInVis map from template
+- [ ] Test question-answer interaction flow
+- [ ] Test PDF upload and querying functionality
+- [ ] Test feedback mechanism (annotations and ratings)
+- [ ] Test summarization feature for questions and answers
+- [ ] Test log generation and export
+- [ ] Verify all node types render correctly
+- [ ] Test with multiple LLM providers
+- [ ] Test in different MindMeister account types (free/pro)
+- [ ] Verify local storage functionality
+- [ ] Test configuration options
+
+---
 
 ## Contribution Guidelines
-To contribute please contact xabier.garmendiad@ehu.eus.
+
+To contribute please contact: **xabier.garmendiad@ehu.eus**
+
+Please include:
+- Description of proposed feature or bug fix
+- Use case or rationale
+- Technical approach (if applicable)
+- Any relevant research or references
+
+---
 
 ## Roadmap and Future Plans
-This project has been developed in a research setting. The aim is to explore the benefits of AI for problem analysis so future plans seek to evaluate the artifact in real settings
+
+This project has been developed in a research setting. The aim is to explore the benefits of AI for exploratory information-seeking. Future plans include:
+
+### Short-term Goals
+- Evaluating the artifact in real-world settings beyond research
+- Improving information overload management mechanisms
+- Enhancing log analysis and visualization capabilities
+
+### Long-term Goals
+- **Open-source LLM integration**: Support for local and open-source models
+- **Enhanced collaboration**: Built-in sharing and synchronization features
+- **Improved scalability**: Better handling of large-scale explorations
+- **Advanced analytics**: Deeper insights from provenance data
+- **Mobile support**: Extension for mobile browsers
+- **Additional external sources**: Support for web pages, videos, and other document formats
+- **Multi-language support**: Interface and documentation in multiple languages
+
+---
+
+## Research Background
+
+### The Problem
+
+While Large Language Models (LLMs) have significantly advanced information-seeking processes, their traditional text-based interfaces pose challenges:
+
+1. **Difficulty in Revisiting Information**: LLMs deliver information sequentially, making it difficult to return to previous points of interest
+2. **Lack of Structural Organization**: LLMs struggle to group related content and highlight connections between information pieces
+
+These issues make it hard for users to maintain and review their **search trails** - the sequences of steps, decisions, and interactions that document their exploration.
+
+### The Solution
+
+ChatInVis addresses these challenges through:
+
+- **Mind map visualization**: Represents search trails as hierarchical, branching structures
+- **Analytic provenance**: Documents and traces the user's reasoning process
+- **Exploration guidance**: Provides LLM-driven follow-up questions
+- **External knowledge integration**: Incorporates PDFs and documents
+- **Information summarization**: Manages information overload through clustering
+
+### User Study Results
+
+A study with 20 participants (Ph.D. students, researchers, and professors) evaluated ChatInVis for:
+- Usability and effectiveness in facilitating exploration
+- Ability to retrace search paths
+- Support for exploration and sensemaking
+
+**Key Findings:**
+- **High usability**: System Usability Scale (SUS) score of 88.87 (well above the 68 threshold)
+- **Effective retracing**: Users could revisit their exploration and understand their reasoning
+- **Connection discovery**: Helped identify relationships between concepts
+- **Navigation support**: Facilitated exploration of complex information spaces
+- **Structured guidance**: LLM-driven questions aided deeper exploration
+
+**Participant Feedback:**
+- *"You have your history of exploration, and you can directly see the research branch"*
+- *"It gives you access to vocabulary and associated taxonomy, which can be useful when you do not have much knowledge on the topic"*
+- *"I enjoyed using mind maps; they allow exploration and interaction with questions/answers and keep track of the exploration path"*
+
+### When to Use ChatInVis
+
+**Most effective for:**
+- Exploring open-ended questions where relationships among concepts are complex
+- Understanding not just definitions but components, sources, and applications
+- Tasks requiring reflection, decisions, and exploration of different dimensions
+- Explaining search processes and reasoning to others
+
+**Less effective for:**
+- Simple factual queries or quick definitions
+- Situations requiring direct, immediate answers
+- Tasks where exploration structure adds unnecessary complexity
+
+---
+
+## License
+
+This project is released under the **MIT License**.
+
+---
+
+## Acknowledgments
+
+ChatInVis builds upon the MindMeister platform and leverages the capabilities of Large Language Models through LangChain integration. We thank the research participants who contributed to the evaluation and improvement of this tool.
+
+
+**Version**: 1.0.0  
+**Maintained by**: Onekin Research Group  
+**Contact**: xabier.garmendiad@ehu.eus
