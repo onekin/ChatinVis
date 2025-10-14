@@ -52,7 +52,7 @@ class HomePageManager {
       let templateElementToClone = document.querySelector(Locators.TEMPLATE_ELEMENT_TO_CLONE)
       let chatinTemplate = templateElementToClone.cloneNode(true)
       chatinTemplate.id = 'chatinTemplate'
-      chatinTemplate.querySelector(Locators.MINDMAP_TEMPLATE_NAME).innerText = 'ChatInVis'
+      // chatinTemplate.querySelector(Locators.MINDMAP_TEMPLATE_NAME).innerText = 'ChatInVis'
       // chatinTemplate.style.width = '50px'
       let templateImage = chatinTemplate.querySelector('svg')
       let templateImageContainer = templateImage.parentNode

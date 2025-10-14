@@ -1,5 +1,5 @@
 
-const APIClientId = 'XxUt7w0Xri-9hmIvvRNaIbMe4HrOml2giLDT5qFT5W8'
+const APIClientId = 'oRMPNbQ8XHvQ7rFJHiJYjQZ1bSSioAjEDPsXflX8L4I'
 const TokenStorageKey = 'MINDMEISTER_ACCESS_TOKEN'
 const Utils = require('../utils/Utils')
 
